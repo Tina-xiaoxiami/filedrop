@@ -1,0 +1,36 @@
+{
+  "name": "filedrop",
+  "version": "1.0.0",
+  "description": "FileDrop - 跨平台局域网文件传输工具",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "tauri": "tauri",
+    "tauri:dev": "tauri dev",
+    "tauri:build": "tauri build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tina-xiaoxiami/filedrop.git"
+  },
+  "keywords": ["file-transfer", "lan", "p2p", "tauri", "rust"],
+  "author": "FileDrop Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tina-xiaoxiami/filedrop/issues"
+  },
+  "homepage": "https://github.com/Tina-xiaoxiami/filedrop#readme",
+  "dependencies": {
+    "@tauri-apps/api": "^2.10.1",
+    "@tauri-apps/plugin-dialog": "^2.2.1",
+    "@tauri-apps/plugin-shell": "^2.2.1"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.10.1",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.3.0",
+    "vite": "^5.0.0"
+  }
+}
